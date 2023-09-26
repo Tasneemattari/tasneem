@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cc: #3a6cf4;
+}
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    color: var(--cc);
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: var(--cc);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 40px;
+
+
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+
+    background-image: url('C:\\Users\\hibah\\Desktop\\portifol\\s9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+
+
+.main h2 {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main-btn {
+    text-decoration: none;
+    background-color: #3a6cf4;
+    color: #fff;
+    border: transparent;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+}
+
+.social-icons a {
+    color: #fff;
+    padding-right: 30px;
+    font-size: 1.3em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.titles {
+    color: #3a6cf4;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #fff;
+
+    border: 2px transparent;
+    border-radius: 15px;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    margin: 15px;
+    padding: 25px;
+    min-height: 12em;
+}
+
+.card .icon {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+
+    }
+}
+
+.project-img .img {
+    width: 100%;
+}
+
+.project-info p {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-top: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.project-title span {
+    color: var(--cc);
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: block;
+}
+footer
+{
+    background-color: rgb(252, 251, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
